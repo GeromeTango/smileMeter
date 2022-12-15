@@ -5,6 +5,7 @@ smile_cascade=cv2.CascadeClassifier("smile.xml")
 
 video = cv2.VideoCapture(0)
 
+
 num=0
 
 def smile_meter(frame,x1,y1):
